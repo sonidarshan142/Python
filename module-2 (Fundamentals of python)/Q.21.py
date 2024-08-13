@@ -5,4 +5,5 @@ string = input("Enter a string: ")
 
 if len(string)  %4 == 0:
         string = string = -1
-print(string)
+else:
+     print(string)
