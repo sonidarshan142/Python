@@ -3,10 +3,12 @@
 whole 'not'...'poor' substring with 'good'. Return the resulting string."""
 
 a1 = input("Enter a string: ")
-not_index = a1.find('not')
-poor_index = a1.find('poor')
+notindex = a1.find('not')
+poorindex = a1.find('poor')
 
-if not_index !=1 and poor_index !=-1 and not_index>poor_index:
-    a1=a1[:poor_index]+ 'Good'+ a1[:poor_index +4:]
+if notindex != -1 and poorindex != -1 and notindex < poorindex:
+    string = string[:notindex] + 'good' + string[poorindex + 4:]
+else:
+    string = string
 
 print(a1)
