@@ -7,6 +7,4 @@ string = input("Enter a string: ")
 if len(string) >= 2:
     result = string[:2] + string[-2:]
 else:
-    result = ""
-
-print(result)
+     print(result)
