@@ -5,9 +5,9 @@ a1 = input("Enter char : ")
 a1 = a1.lower()
 # Split the sentence into words
 words = a1.split()
-wordcount = {}
+count = {}
 
 for word in words:
-    wordcount[word] = wordcount.get(word, 0) + 1
+    count[word] = count.get(word, 0) + 1
 
-print(wordcount)
+print(count)
