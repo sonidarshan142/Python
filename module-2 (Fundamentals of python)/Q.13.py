@@ -2,11 +2,14 @@
 frequency) in a string"""
 
 a = input("Enter char :")
-freq = {}
-for i in a:
-    if i in freq:
-        freq i+= 1
-    else:
-        freq i=1
+count = {}
 
-print("Count number of char :" + str(freq)) 
+for char in a:
+    if char in count:
+        count[char] += 1
+    else:
+        count[char] = 1 
+
+
+for char, count in count.items():
+    print(f"{char}: {count}")
