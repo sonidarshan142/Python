@@ -1,9 +1,8 @@
 """Write a Python function to reverses a string if its length is a multiple of 
 4
 """
-string = input("Enter a string: ")
-
-if len(string)  %4 == 0:
-        string = string = -1
+str=input("Enter the String :")
+if len(str) % 4 == 0:
+   print(''.join(reversed(str)))
 else:
-     print(string)
+	print(str)
