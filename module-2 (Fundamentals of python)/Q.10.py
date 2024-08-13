@@ -7,13 +7,9 @@ num2 = int(input("Enter the second number: "))
 
 result = False
 
-if num1 == num2:
-    result = True
-elif abs(num1 - num2) == 5:
-    result = True
-elif abs(num1 + num2) == 5:
-    result = True
+if num1==num2 or (num1 - num2) == 5 or (num1 + num2) == 5:
+    res = True
+    print(result)
 else:
     print(result)
-
 
