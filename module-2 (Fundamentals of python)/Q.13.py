@@ -5,8 +5,8 @@ a = input("Enter char :")
 freq = {}
 for i in a:
     if i in freq:
-        freq [i]+= 1
+        freq i+= 1
     else:
-        freq [i] = 1
+        freq i=1
 
 print("Count number of char :" + str(freq)) 
