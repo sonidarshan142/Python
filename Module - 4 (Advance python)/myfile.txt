@@ -1,0 +1,14 @@
+hello i am learning advance python programmingThis is appended text.
+
+"""
+file handling : using of python programming we can create, remove, append file
+                using of different different file mode
+
+there are mainly 4 types of file mode
+
+r : read mode
+w : write mode
+a: append mode
+x : create mode (blank file)
+
+"""
