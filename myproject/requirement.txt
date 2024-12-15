@@ -1,0 +1,55 @@
+Digital Society :
+
+Which can contain 3 modules :
+
+-> Admine (superuser - django)
+-> Chairman
+-> Sciety Member
+
+-----------------------------------------------
+
+
+Chairman : 
+    -> login
+    -> forgot password
+    -> change profile 
+    -> can add society members
+    -> can view all society members
+    -> can manage all society members (update , delete)
+
+    -> can add notice 
+    -> can view notice
+    -> can manage notice
+    -> can add events
+    -> can manage events
+
+    -> can view compalints
+
+
+Society Members  : 
+    -> login
+    -> forgot password
+    -> change profile 
+    -> can view society members
+
+    -> can view notice
+    -> can view events
+    -> can add compalints
+
+
+----------------------------------------------------------------------------------
+
+for model creation
+
+        chairman                societymember
+            |                           |
+            ============================
+                            |
+                            v
+
+                            Email
+                            password
+                            otp
+                            created_at
+
+                            user(model) FK(foreign key)
